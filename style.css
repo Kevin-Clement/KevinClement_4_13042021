@@ -789,12 +789,18 @@ h4 {
     color: rgb(192, 63, 63)! important;
 }
 /* OPTI */
-.img-responsive--citation{
-    height: auto;
+.img-responsive--citation1{
+    height: 80px;
     width: 560px;
 }
-
-
+.img-responsive--citation2{
+    height: 150px;
+    width: 560px;
+}
+.img-responsive--citation3{
+    height: 100px;
+    width: 460px;
+}
 .btn-atomic-tangerine {
     /* background: #F3976C; */
     /* OPTI */
@@ -1072,9 +1078,17 @@ h4 {
         width: 370px;
         height: 370px;
     }
-    .img-responsive--citation{
-        width: 360px;
-        height: auto;
+    .img-responsive--citation1{
+        height: 60px;
+        width: 350px;
+    }
+    .img-responsive--citation2{
+        height: 140px;
+        width: 350px;
+    }
+    .img-responsive--citation3{
+        height: 90px;
+        width: 350px;
     }
     
     .portfolio-row{
