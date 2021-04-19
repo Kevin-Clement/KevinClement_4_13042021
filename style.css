@@ -678,12 +678,12 @@ a {
 
 p {
     /* OPTI */
-    font-size: 13px;
+    font-size: 15px;
     /* font-size: 11px; */
 }
 
 .tight-width-whitespace {
-    max-width: 400px;
+    max-width: 600px;
     margin: auto auto auto auto;
 }
 
@@ -756,12 +756,11 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
-.black-background {
+.black-background{
     /* background-color: rgba(165, 147, 99, 0.7); */
     /* opti */
-    background-color: #404040;
+    background-color: rgba(38, 38, 38, 0.7);
     padding: 40px 40px 40px 40px;
-    opacity: .8;
 }
 
 
@@ -791,7 +790,7 @@ h4 {
 }
 /* OPTI */
 .img-responsive--citation{
-    height: 150px;
+    height: auto;
     width: 560px;
 }
 
@@ -800,12 +799,14 @@ h4 {
     /* background: #F3976C; */
     /* OPTI */
     background-color: rgb(192, 63, 63);
-    color: #FFFFFF!important;
+    color: white;
+    font-size: 1.5rem;
+    transition: 200ms ease-in-out;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    opacity: .9;
+    box-shadow: 0px 0px 4px black inset;
 }
 
 .ltc-white {
@@ -867,14 +868,14 @@ h4 {
         max-width: 100%
     }
 }
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+/* OPTI */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -892,10 +893,11 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
+    /* OPTI */
+    /* .bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    } */
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -904,8 +906,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /* padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right); */
     }
 }
 
@@ -1071,9 +1073,10 @@ h4 {
         height: 370px;
     }
     .img-responsive--citation{
-        width: 370px;
+        width: 360px;
         height: auto;
     }
+    
     .portfolio-row{
         margin-bottom: 10px;
         margin-top: 10px;
