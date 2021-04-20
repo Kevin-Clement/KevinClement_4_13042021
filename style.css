@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 60px 40px;
 }
 
 .bloc-md {
@@ -710,7 +710,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    /* font-size: 22px; */
     line-height: 1.4em;
 }
 
@@ -787,21 +787,10 @@ h4 {
 .tc-white {
     /* color: #F3976C!important; */
     /* OPTI */
-    color: rgb(192, 63, 63)! important;
+    color: rgb(228, 61, 61)! important;
 }
 /* OPTI */
-.img-responsive--citation1{
-    height: 80px;
-    width: 560px;
-}
-.img-responsive--citation2{
-    height: 150px;
-    width: 560px;
-}
-.img-responsive--citation3{
-    height: 100px;
-    width: 460px;
-}
+
 .btn-atomic-tangerine {
     /* background: #F3976C; */
     /* OPTI */
@@ -809,6 +798,29 @@ h4 {
     color: white;
     font-size: 1.5rem;
     transition: 200ms ease-in-out;
+}
+.title--p{
+    text-align: center;
+    margin: auto;
+}
+.title--p h2{
+    color:rgb(192, 63, 63)!important;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+hr{
+    max-width: 350px;
+}
+.title--p p{
+    font-size: 2rem;
+}
+
+.text-center p{
+    font-size: 1.8rem;
+}
+.white p{
+    font-size: 1.8rem;
+    color: white!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -818,6 +830,7 @@ h4 {
 
 .ltc-white {
     color: #FFFFFF!important;
+    font-size: 2rem;
 }
 
 .ltc-white:hover {
@@ -841,9 +854,6 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
@@ -930,8 +940,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 5px!important;
+        padding-right: 5px!important;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1061,6 +1071,12 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    #bloc-1-hero h1 {
+        font-size: 25px;
+    }
+    .white p{
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1078,19 +1094,6 @@ h4 {
         width: 370px;
         height: 370px;
     }
-    .img-responsive--citation1{
-        height: 60px;
-        width: 350px;
-    }
-    .img-responsive--citation2{
-        height: 140px;
-        width: 350px;
-    }
-    .img-responsive--citation3{
-        height: 90px;
-        width: 350px;
-    }
-    
     .portfolio-row{
         margin-bottom: 10px;
         margin-top: 10px;

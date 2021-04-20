@@ -1464,9 +1464,10 @@ img {
 
 hr {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border: 0;
-    border-top: 1px solid #eee
+    border-top: 3px solid black;
+    border-radius: 3px;
 }
 
 .sr-only {
