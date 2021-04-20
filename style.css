@@ -284,7 +284,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 3.5rem;
 }
 
 .navbar {
@@ -1072,7 +1072,7 @@ hr{
         padding-right: 0;
     }
     #bloc-1-hero h1 {
-        font-size: 25px;
+        font-size: 2.5rem;
     }
     .white p{
         font-size: 1.5rem;
