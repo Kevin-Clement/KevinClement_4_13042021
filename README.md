@@ -6,3 +6,4 @@
 * Écrire un code HTML et CSS maintenable
 * Optimiser la taille et la vitesse d’un site web
 * Optimiser le référencement d'un site web
+* Bonne pratique SEO
